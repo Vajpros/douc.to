@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Douč.to | Kontakt</title>
+    <link rel="stylesheet" href="styles-kontakt.css">
+    <link rel="icon" href="head logo.svg" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo">
+            <div class="header-text-container">
+                <div class="header-text">Douč.to</div>
+                <div class="subheader-text">Naučíme Vás cokoliv!</div>
+            </div>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">DOMŮ</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">DOUČKO</a>
+                    <div class="dropdown-content">
+                        <a href="anglictina.html">Angličtina</a>
+                        <a href="#">Chemie</a>
+                        <a href="#">Biologie</a>
+                    </div>
+                </li>
+                <li><a href="tym.html">NÁŠ TÝM</a></li>
+                <li><a href="reference.html">REFERENCE</a></li>
+                <li><a href="kontakt.html">KONTAKT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <h1>Kontaktujte nás</h1>
+        <hr class="underline">
+    
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Vaše jméno</label>
+                <input type="text" class="form-control" id="name" placeholder="Zadejte vaše jméno">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Zadejte váš e-mail">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Vaše zpráva</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Napište vaši zprávu"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Odeslat</button>
+        </form>
+
+        <div class="contact-info mt-5">
+            <h2>Kontaktní údaje</h2>
+            <p>Adresa: M. Majerové 720/25, Třebíč</p>
+            <p>Telefon: +420 777 491 426</p>
+            <p>E-mail: info@douc.to</p>
+        </div>
+
+        <div class="social-media mt-5">
+            <h2>Sociální média</h2>
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">LinkedIn</a>
+        </div>
+
+        <div class="map-container mt-5">
+            <h2>Kde nás najdete</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.1197791938415!2d15.873210215717667!3d49.2141236793249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470d52cf8f09fd0f%3A0x1234567890abcdef!2sM.%20Majerov%C3%A9%20720%2F25%2C%20T%C5%99eb%C3%AD%C4%8D!5e0!3m2!1scs!2scz!4v1601234567890!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <footer>
+        &copy; 2024 Douč.to. Všechna práva vyhrazena.
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
